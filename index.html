@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="envelope.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text" >
+              <strong>Dear Daddy Ceb,</strong>
+              <p style="align-items: center">
+               Don't put too much pressure on yourself at work or in life, and feel free na magsabi sakin.  
+               Im here & your number 1 supporter. I know I'm not enough, but I'm trying my best. I hope you appreciate it. Enjoy your life, po♡.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    <script>
+      const envelope = document.querySelector(".envelope-wrapper");
+      envelope.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+    </script>
+  </body>
+</html>
